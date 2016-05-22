@@ -1,0 +1,1213 @@
+2016-05-10 10:38:33,305 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-05-10 10:38:33,541 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-05-10 10:38:33,683 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) starting
+2016-05-10 10:38:33,685 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final
+	jboss.host.name = elyes-aspire-e1-572g
+	jboss.modules.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = elyes-aspire-e1-572g
+	jboss.qualified.host.name = elyes-aspire-e1-572g
+	jboss.server.base.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	jboss.server.config.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration
+	jboss.server.data.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data
+	jboss.server.deploy.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data/content
+	jboss.server.log.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log
+	jboss.server.name = elyes-aspire-e1-572g
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	org.jboss.boot.log.file = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.2.0-34-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar -mp /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final -Djboss.server.base.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = FR
+	user.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/bin
+	user.home = /home/elyes
+	user.language = fr
+	user.name = elyes
+	user.timezone = Europe/Paris
+2016-05-10 10:38:33,686 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log -Dlogging.configuration=file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties 
+2016-05-10 10:38:35,077 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-05-10 10:38:35,109 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.4.Final
+2016-05-10 10:38:35,121 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.4.Final
+2016-05-10 10:38:35,159 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 20) Activating Infinispan subsystem.
+2016-05-10 10:38:35,187 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 19) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-05-10 10:38:35,203 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 29) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-10 10:38:35,206 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 25) WFLYNAM0001: Activating Naming Subsystem
+2016-05-10 10:38:35,226 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-05-10 10:38:35,268 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 27) WFLYSEC0002: Activating Security Subsystem
+2016-05-10 10:38:35,272 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-05-10 10:38:35,311 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2016-05-10 10:38:35,330 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 18) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-10 10:38:35,334 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-05-10 10:38:35,445 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.18.Final
+2016-05-10 10:38:35,902 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/deployments
+2016-05-10 10:38:35,944 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-10 10:38:36,369 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.1.Final
+2016-05-10 10:38:36,871 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-3) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 10:38:36,871 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-1) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 10:38:36,874 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-6) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 10:38:36,876 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0001: Started namedCache cache from local container
+2016-05-10 10:38:36,876 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-1) DGISPN0001: Started memcachedCache cache from local container
+2016-05-10 10:38:36,876 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-6) DGISPN0001: Started default cache from local container
+2016-05-10 10:38:36,877 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-4) DGENDPT10000: WebSocketServer starting
+2016-05-10 10:38:36,877 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-8) DGENDPT10000: MemcachedServer starting
+2016-05-10 10:38:36,877 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-7) DGENDPT10000: HotRodServer starting
+2016-05-10 10:38:36,877 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10000: REST starting
+2016-05-10 10:38:36,877 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-4) DGENDPT10001: WebSocketServer listening on 127.0.0.1:8181
+2016-05-10 10:38:36,878 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-7) DGENDPT10001: HotRodServer listening on 127.0.0.1:11222
+2016-05-10 10:38:36,878 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-8) DGENDPT10001: MemcachedServer listening on 127.0.0.1:11211
+2016-05-10 10:38:36,979 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-6) DGISPN0001: Started ___protobuf_metadata cache from local container
+2016-05-10 10:38:36,992 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-6) DGISPN0001: Started ___script_cache cache from local container
+2016-05-10 10:38:37,670 INFO  [org.infinispan.rest.NettyRestServer] (MSC service thread 1-6) ISPN012003: REST server starting, listening on 127.0.0.1:8080
+2016-05-10 10:38:37,671 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10002: REST mapped to /rest
+2016-05-10 10:38:37,775 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-10 10:38:37,776 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-05-10 10:38:37,777 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) started in 4980ms - Started 155 of 161 services (44 services are lazy, passive or on-demand)
+2016-05-10 10:38:46,906 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-1) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name '__avro_metadata' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:46,993 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-2) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:47,025 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-3) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:47,078 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-4) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:47,092 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-5) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:47,133 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-6) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:47,151 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-7) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 10:38:47,172 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-8) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 16:12:26,314 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2016-05-10 16:12:26,359 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-05-10 16:12:26,360 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-2) DGISPN0002: Stopped namedCache cache from local container
+2016-05-10 16:12:26,375 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-05-10 16:12:26,481 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-6) DGISPN0002: Stopped memcachedCache cache from local container
+2016-05-10 16:12:26,481 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0002: Stopped default cache from local container
+2016-05-10 16:12:26,490 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0002: Stopped ___protobuf_metadata cache from local container
+2016-05-10 16:12:26,501 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0002: Stopped ___script_cache cache from local container
+2016-05-10 16:12:26,525 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) stopped in 184ms
+2016-05-10 20:16:15,994 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-05-10 20:16:16,542 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-05-10 20:16:16,661 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) starting
+2016-05-10 20:16:16,663 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final
+	jboss.host.name = elyes-aspire-e1-572g
+	jboss.modules.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = elyes-aspire-e1-572g
+	jboss.qualified.host.name = elyes-aspire-e1-572g
+	jboss.server.base.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	jboss.server.config.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration
+	jboss.server.data.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data
+	jboss.server.deploy.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data/content
+	jboss.server.log.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log
+	jboss.server.name = elyes-aspire-e1-572g
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	org.jboss.boot.log.file = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.2.0-34-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar -mp /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final -Djboss.server.base.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = FR
+	user.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/bin
+	user.home = /home/elyes
+	user.language = fr
+	user.name = elyes
+	user.timezone = Europe/Paris
+2016-05-10 20:16:16,664 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log -Dlogging.configuration=file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties 
+2016-05-10 20:16:18,274 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-05-10 20:16:18,321 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2016-05-10 20:16:18,334 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2016-05-10 20:16:18,417 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 20) Activating Infinispan subsystem.
+2016-05-10 20:16:18,430 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 19) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-05-10 20:16:18,464 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 25) WFLYNAM0001: Activating Naming Subsystem
+2016-05-10 20:16:18,483 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 27) WFLYSEC0002: Activating Security Subsystem
+2016-05-10 20:16:18,495 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 29) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-10 20:16:18,485 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-05-10 20:16:18,521 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-05-10 20:16:18,530 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 18) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-10 20:16:18,540 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.18.Final
+2016-05-10 20:16:18,554 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-05-10 20:16:18,577 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2016-05-10 20:16:19,099 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-10 20:16:19,141 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/deployments
+2016-05-10 20:16:19,901 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.1.Final
+2016-05-10 20:16:20,435 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-8) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 20:16:20,435 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-1) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 20:16:20,438 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-8) DGISPN0001: Started memcachedCache cache from local container
+2016-05-10 20:16:20,440 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-2) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 20:16:20,440 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-1) DGISPN0001: Started namedCache cache from local container
+2016-05-10 20:16:20,441 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-2) DGISPN0001: Started default cache from local container
+2016-05-10 20:16:20,442 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-2) DGENDPT10000: HotRodServer starting
+2016-05-10 20:16:20,442 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-7) DGENDPT10000: MemcachedServer starting
+2016-05-10 20:16:20,442 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-2) DGENDPT10001: HotRodServer listening on 127.0.0.1:11222
+2016-05-10 20:16:20,442 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-3) DGENDPT10000: REST starting
+2016-05-10 20:16:20,442 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10000: WebSocketServer starting
+2016-05-10 20:16:20,443 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-7) DGENDPT10001: MemcachedServer listening on 127.0.0.1:11211
+2016-05-10 20:16:20,450 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10001: WebSocketServer listening on 127.0.0.1:8181
+2016-05-10 20:16:20,633 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0001: Started ___protobuf_metadata cache from local container
+2016-05-10 20:16:20,650 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0001: Started ___script_cache cache from local container
+2016-05-10 20:16:21,155 INFO  [org.infinispan.rest.NettyRestServer] (MSC service thread 1-3) ISPN012003: REST server starting, listening on 127.0.0.1:8080
+2016-05-10 20:16:21,155 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-3) DGENDPT10002: REST mapped to /rest
+2016-05-10 20:16:21,325 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-10 20:16:21,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-05-10 20:16:21,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) started in 5911ms - Started 155 of 161 services (44 services are lazy, passive or on-demand)
+2016-05-10 21:24:28,442 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-05-10 21:24:28,707 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-05-10 21:24:28,817 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) starting
+2016-05-10 21:24:28,819 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final
+	jboss.host.name = elyes-aspire-e1-572g
+	jboss.modules.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = elyes-aspire-e1-572g
+	jboss.qualified.host.name = elyes-aspire-e1-572g
+	jboss.server.base.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	jboss.server.config.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration
+	jboss.server.data.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data
+	jboss.server.deploy.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data/content
+	jboss.server.log.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log
+	jboss.server.name = elyes-aspire-e1-572g
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	org.jboss.boot.log.file = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.2.0-34-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar -mp /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final -Djboss.server.base.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = FR
+	user.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/bin
+	user.home = /home/elyes
+	user.language = fr
+	user.name = elyes
+	user.timezone = Europe/Paris
+2016-05-10 21:24:28,820 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log -Dlogging.configuration=file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties 
+2016-05-10 21:24:30,061 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-05-10 21:24:30,085 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.4.Final
+2016-05-10 21:24:30,102 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.4.Final
+2016-05-10 21:24:30,143 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 20) Activating Infinispan subsystem.
+2016-05-10 21:24:30,172 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 19) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-05-10 21:24:30,177 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 25) WFLYNAM0001: Activating Naming Subsystem
+2016-05-10 21:24:30,183 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 29) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-10 21:24:30,197 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 27) WFLYSEC0002: Activating Security Subsystem
+2016-05-10 21:24:30,224 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-05-10 21:24:30,234 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-05-10 21:24:30,239 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.18.Final
+2016-05-10 21:24:30,251 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 18) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-10 21:24:30,270 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-05-10 21:24:30,311 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2016-05-10 21:24:30,885 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/deployments
+2016-05-10 21:24:30,936 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-10 21:24:31,054 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: WFLYSRV0083: Failed to start the http-interface service
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:271)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: java.net.BindException: Adresse déjà utilisée
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:157)
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:237)
+	... 5 more
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:192)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:144)
+	... 6 more
+
+2016-05-10 21:24:31,385 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.1.Final
+2016-05-10 21:24:31,878 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-5) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 21:24:31,880 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-5) DGISPN0001: Started default cache from local container
+2016-05-10 21:24:31,881 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-5) DGENDPT10000: WebSocketServer starting
+2016-05-10 21:24:31,881 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-1) DGENDPT10000: REST starting
+2016-05-10 21:24:31,881 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10000: HotRodServer starting
+2016-05-10 21:24:31,882 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-5) DGENDPT10001: WebSocketServer listening on 127.0.0.1:8181
+2016-05-10 21:24:31,882 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10001: HotRodServer listening on 127.0.0.1:11222
+2016-05-10 21:24:31,884 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-7) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 21:24:31,878 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-3) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 21:24:31,886 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-7) DGISPN0001: Started memcachedCache cache from local container
+2016-05-10 21:24:31,887 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-3) DGISPN0001: Started namedCache cache from local container
+2016-05-10 21:24:31,887 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-7) DGENDPT10000: MemcachedServer starting
+2016-05-10 21:24:31,891 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-7) DGENDPT10001: MemcachedServer listening on 127.0.0.1:11211
+2016-05-10 21:24:32,063 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-1) DGISPN0001: Started ___protobuf_metadata cache from local container
+2016-05-10 21:24:32,076 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-1) DGISPN0001: Started ___script_cache cache from local container
+2016-05-10 21:24:32,565 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.rest.rest-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.rest.rest-connector: DGENDPT10016: Could not start the web context for the REST Server
+	at org.infinispan.server.endpoint.subsystem.RestService.start(RestService.java:110)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:24:32,623 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: DGENDPT10004: Failed to start MemcachedServer
+	at org.infinispan.server.endpoint.subsystem.ProtocolServerService.start(ProtocolServerService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:24:32,641 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: DGENDPT10004: Failed to start WebSocketServer
+	at org.infinispan.server.endpoint.subsystem.ProtocolServerService.start(ProtocolServerService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:24:32,648 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: DGENDPT10004: Failed to start HotRodServer
+	at org.infinispan.server.endpoint.subsystem.ProtocolServerService.start(ProtocolServerService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:24:32,651 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.serverManagement.controller.management.http" => "org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: WFLYSRV0083: Failed to start the http-interface service
+    Caused by: java.lang.RuntimeException: java.net.BindException: Adresse déjà utilisée
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:24:32,652 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("hotrod-connector" => "hotrod-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: DGENDPT10004: Failed to start HotRodServer
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:24:32,653 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("memcached-connector" => "memcached-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.memcached.memcached-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: DGENDPT10004: Failed to start MemcachedServer
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:24:32,653 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("rest-connector" => "rest-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.rest.rest-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.rest.rest-connector: DGENDPT10016: Could not start the web context for the REST Server
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:24:32,654 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("websocket-connector" => "websocket-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.websocket.websocket-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: DGENDPT10004: Failed to start WebSocketServer
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:24:32,679 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: WFLYSRV0083: Failed to start the http-interface service
+      service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: DGENDPT10004: Failed to start HotRodServer
+      service jboss.datagrid-infinispan-endpoint.rest.rest-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.rest.rest-connector: DGENDPT10016: Could not start the web context for the REST Server
+      service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: DGENDPT10004: Failed to start MemcachedServer
+      service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: DGENDPT10004: Failed to start WebSocketServer
+
+2016-05-10 21:24:32,798 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0063: Http management interface is not enabled
+2016-05-10 21:24:32,798 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2016-05-10 21:24:32,799 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) started (with errors) in 4865ms - Started 146 of 159 services (6 services failed or missing dependencies, 44 services are lazy, passive or on-demand)
+2016-05-10 21:31:58,688 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-05-10 21:31:58,911 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-05-10 21:31:59,008 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) starting
+2016-05-10 21:31:59,010 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final
+	jboss.host.name = elyes-aspire-e1-572g
+	jboss.modules.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = elyes-aspire-e1-572g
+	jboss.qualified.host.name = elyes-aspire-e1-572g
+	jboss.server.base.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	jboss.server.config.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration
+	jboss.server.data.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data
+	jboss.server.deploy.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/data/content
+	jboss.server.log.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log
+	jboss.server.name = elyes-aspire-e1-572g
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules
+	org.jboss.boot.log.file = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.2.0-34-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/jboss-modules.jar -mp /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final -Djboss.server.base.dir=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = FR
+	user.dir = /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/bin
+	user.home = /home/elyes
+	user.language = fr
+	user.name = elyes
+	user.timezone = Europe/Paris
+2016-05-10 21:31:59,011 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/log/server.log -Dlogging.configuration=file:/home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/configuration/logging.properties 
+2016-05-10 21:32:00,224 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-05-10 21:32:00,247 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.4.Final
+2016-05-10 21:32:00,261 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.4.Final
+2016-05-10 21:32:00,310 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.18.Final
+2016-05-10 21:32:00,348 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 19) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-05-10 21:32:00,374 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-05-10 21:32:00,372 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 25) WFLYNAM0001: Activating Naming Subsystem
+2016-05-10 21:32:00,374 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 18) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-10 21:32:00,397 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 29) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-10 21:32:00,402 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-05-10 21:32:00,380 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 20) Activating Infinispan subsystem.
+2016-05-10 21:32:00,421 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 27) WFLYSEC0002: Activating Security Subsystem
+2016-05-10 21:32:00,443 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-05-10 21:32:00,449 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2016-05-10 21:32:00,985 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-10 21:32:01,120 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home/elyes/Téléchargements/infinispan-server-8.2.1.Final/standalone/deployments
+2016-05-10 21:32:01,215 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: WFLYSRV0083: Failed to start the http-interface service
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:271)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: java.net.BindException: Adresse déjà utilisée
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:157)
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:237)
+	... 5 more
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:192)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:144)
+	... 6 more
+
+2016-05-10 21:32:01,545 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.1.Final
+2016-05-10 21:32:02,122 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-1) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 21:32:02,122 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-5) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 21:32:02,122 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (MSC service thread 1-7) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2016-05-10 21:32:02,124 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-5) DGISPN0001: Started default cache from local container
+2016-05-10 21:32:02,124 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-1) DGISPN0001: Started namedCache cache from local container
+2016-05-10 21:32:02,125 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-4) DGENDPT10000: REST starting
+2016-05-10 21:32:02,125 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-1) DGENDPT10000: WebSocketServer starting
+2016-05-10 21:32:02,126 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-1) DGENDPT10001: WebSocketServer listening on 127.0.0.1:8181
+2016-05-10 21:32:02,127 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10000: HotRodServer starting
+2016-05-10 21:32:02,128 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-6) DGENDPT10001: HotRodServer listening on 127.0.0.1:11222
+2016-05-10 21:32:02,124 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-7) DGISPN0001: Started memcachedCache cache from local container
+2016-05-10 21:32:02,129 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-3) DGENDPT10000: MemcachedServer starting
+2016-05-10 21:32:02,129 INFO  [org.infinispan.server.endpoint] (MSC service thread 1-3) DGENDPT10001: MemcachedServer listening on 127.0.0.1:11211
+2016-05-10 21:32:02,235 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-4) DGISPN0001: Started ___protobuf_metadata cache from local container
+2016-05-10 21:32:02,261 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-4) DGISPN0001: Started ___script_cache cache from local container
+2016-05-10 21:32:02,779 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.rest.rest-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.rest.rest-connector: DGENDPT10016: Could not start the web context for the REST Server
+	at org.infinispan.server.endpoint.subsystem.RestService.start(RestService.java:110)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:32:02,841 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: DGENDPT10004: Failed to start MemcachedServer
+	at org.infinispan.server.endpoint.subsystem.ProtocolServerService.start(ProtocolServerService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:32:02,848 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: DGENDPT10004: Failed to start WebSocketServer
+	at org.infinispan.server.endpoint.subsystem.ProtocolServerService.start(ProtocolServerService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:32:02,862 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: DGENDPT10004: Failed to start HotRodServer
+	at org.infinispan.server.endpoint.subsystem.ProtocolServerService.start(ProtocolServerService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:484)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1080)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	... 1 more
+
+2016-05-10 21:32:02,867 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.serverManagement.controller.management.http" => "org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: WFLYSRV0083: Failed to start the http-interface service
+    Caused by: java.lang.RuntimeException: java.net.BindException: Adresse déjà utilisée
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:32:02,868 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("hotrod-connector" => "hotrod-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: DGENDPT10004: Failed to start HotRodServer
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:32:02,869 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("memcached-connector" => "memcached-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.memcached.memcached-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: DGENDPT10004: Failed to start MemcachedServer
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:32:02,870 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("rest-connector" => "rest-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.rest.rest-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.rest.rest-connector: DGENDPT10016: Could not start the web context for the REST Server
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:32:02,871 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datagrid-infinispan-endpoint"),
+    ("websocket-connector" => "websocket-connector")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.datagrid-infinispan-endpoint.websocket.websocket-connector" => "org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: DGENDPT10004: Failed to start WebSocketServer
+    Caused by: java.net.BindException: Adresse déjà utilisée"}}
+2016-05-10 21:32:02,891 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.hotrod.hotrod-connector: DGENDPT10004: Failed to start HotRodServer
+      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: WFLYSRV0083: Failed to start the http-interface service
+      service jboss.datagrid-infinispan-endpoint.rest.rest-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.rest.rest-connector: DGENDPT10016: Could not start the web context for the REST Server
+      service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.memcached.memcached-connector: DGENDPT10004: Failed to start MemcachedServer
+      service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: org.jboss.msc.service.StartException in service jboss.datagrid-infinispan-endpoint.websocket.websocket-connector: DGENDPT10004: Failed to start WebSocketServer
+
+2016-05-10 21:32:02,981 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0063: Http management interface is not enabled
+2016-05-10 21:32:02,982 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2016-05-10 21:32:02,982 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: Infinispan Server 8.2.1.Final (WildFly Core 2.0.10.Final) started (with errors) in 4677ms - Started 146 of 159 services (6 services failed or missing dependencies, 44 services are lazy, passive or on-demand)
+2016-05-10 21:59:07,147 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-1) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name '__avro_metadata' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 21:59:07,284 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-2) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 22:00:21,950 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-3) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name '__avro_metadata' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 22:00:22,004 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-4) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 22:43:18,898 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-5) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name '__avro_metadata' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 22:43:18,965 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-6) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 22:44:28,353 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-7) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name '__avro_metadata' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-10 22:44:28,451 ERROR [org.infinispan.server.hotrod.CacheDecodeContext] (HotRodServerWorker-9-8) ISPN005003: Exception reported: org.infinispan.server.hotrod.CacheNotFoundException: Cache with name 'WebPage' not found amongst the configured caches
+	at org.infinispan.server.hotrod.CacheDecodeContext.obtainCache(CacheDecodeContext.scala:148)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$hotrod$HotRodDecoder$$decodeHeader(HotRodDecoder.scala:92)
+	at org.infinispan.server.hotrod.HotRodDecoder$$anonfun$decode$1.apply$mcV$sp(HotRodDecoder.scala:52)
+	at org.infinispan.server.hotrod.HotRodDecoder.wrapSecurity(HotRodDecoder.scala:224)
+	at org.infinispan.server.hotrod.HotRodDecoder.decode(HotRodDecoder.scala:50)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:370)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at org.infinispan.server.hotrod.HotRodDecoder.org$infinispan$server$core$transport$StatsChannelHandler$$super$channelRead(HotRodDecoder.scala:32)
+	at org.infinispan.server.core.transport.StatsChannelHandler$class.channelRead(StatsChannelHandler.scala:32)
+	at org.infinispan.server.hotrod.HotRodDecoder.channelRead(HotRodDecoder.scala:32)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+
